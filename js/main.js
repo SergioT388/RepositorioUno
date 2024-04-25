@@ -4,6 +4,4 @@ let cantidadDeseada = prompt("Ingrese la cantidad de heladeras que quiere")
 let costoFinal = precioUnitario * cantidadDeseada
 log(cantidadDeseada)
 
-console.log(costoFinal)
-
 alert(costoFinal)
