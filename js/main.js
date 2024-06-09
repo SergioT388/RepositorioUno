@@ -1,11 +1,4 @@
-const Producto = {
-    Nombre: "Camiseta",
-    Precio: 25000,
-    Stock: 30,
-}
-let nombreInicial = Producto.Nombre
-let nombreFinal = Producto.Nombre = 'Zapatillas'
-Producto.Categoría = 'Calzado'
-console.log(Producto);
-delete Producto.Stock
-console.log(Producto);
+const precio = document.getElementById('precioProducto').innerText= "Precio: $450";
+document.querySelector('#precioProducto').style.color = 'red';
+document.querySelector('#precioProducto').style.fontSize = '25px';
+console.log(precio);
